@@ -5,7 +5,6 @@ $age=21;
 $decimalValue=54.6;
 $boolean=true;
 
-
 //array
 $fruits=array("Banana","Apple","Grapes");
 $multipleDataType=array("Mahnoor",24,53.4,true);
@@ -19,6 +18,7 @@ foreach($fruits as $data){
 //Associative array
 $Students=array("name"=>"Mahnoor","fatherName"=>"Tariq","class"=>"2111G2");
 echo $Students['name'] . "<br>";
+
 
 //array functions
 array_push($fruits, "Pomegranate",21);
@@ -47,4 +47,10 @@ function ageCalculator($val1,$val2,$val3){
     echo "<h2>The total sum is $sum</h2>";
 }
 ageCalculator(val1: 2,val2: 4,val3: 7);
+
+
+
+foreach($Students as $key=>$val){
+    echo "$key : $val <br>";
+}
 ?>
