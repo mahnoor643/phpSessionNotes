@@ -49,7 +49,7 @@ function ageCalculator($val1,$val2,$val3){
 ageCalculator(val1: 2,val2: 4,val3: 7);
 
 
-
+//fetching multidimensional array
 foreach($Students as $key=>$val){
     echo "$key : $val <br>";
 }
